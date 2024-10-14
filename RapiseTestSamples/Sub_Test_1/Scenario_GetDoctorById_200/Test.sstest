@@ -10,15 +10,15 @@
   <CacheObjects>false</CacheObjects>
   <ObjectLookupAttempts>30</ObjectLookupAttempts>
   <ObjectLookupAttemptInterval>300</ObjectLookupAttemptInterval>
-  <ShowReport>true</ShowReport>
+  <ShowReport>false</ShowReport>
   <JSEngineType>Default</JSEngineType>
   <BeautifySavedObjects>true</BeautifySavedObjects>
   <SaveRecordingScreenshots>false</SaveRecordingScreenshots>
   <SavePlaybackScreenshots>false</SavePlaybackScreenshots>
-  <SavePlaybackScreenshotsInTestReport>true</SavePlaybackScreenshotsInTestReport>
+  <SavePlaybackScreenshotsInTestReport>false</SavePlaybackScreenshotsInTestReport>
   <SaveScreenshotObjectOnly>true</SaveScreenshotObjectOnly>
-  <SaveScreenshotsCaptureCursor>true</SaveScreenshotsCaptureCursor>
-  <SaveScreenshotOnFailure>true</SaveScreenshotOnFailure>
+  <SaveScreenshotsCaptureCursor>false</SaveScreenshotsCaptureCursor>
+  <SaveScreenshotOnFailure>false</SaveScreenshotOnFailure>
   <CommandLine />
   <EntryPoint>Test</EntryPoint>
   <WorkDir>..\..\.</WorkDir>
