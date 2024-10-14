@@ -15,9 +15,9 @@
   <BeautifySavedObjects>true</BeautifySavedObjects>
   <SaveRecordingScreenshots>false</SaveRecordingScreenshots>
   <SavePlaybackScreenshots>false</SavePlaybackScreenshots>
-  <SavePlaybackScreenshotsInTestReport>true</SavePlaybackScreenshotsInTestReport>
+  <SavePlaybackScreenshotsInTestReport>false</SavePlaybackScreenshotsInTestReport>
   <SaveScreenshotObjectOnly>true</SaveScreenshotObjectOnly>
-  <SaveScreenshotsCaptureCursor>true</SaveScreenshotsCaptureCursor>
+  <SaveScreenshotsCaptureCursor>false</SaveScreenshotsCaptureCursor>
   <SaveScreenshotOnFailure>false</SaveScreenshotOnFailure>
   <CommandLine />
   <EntryPoint>Test</EntryPoint>
