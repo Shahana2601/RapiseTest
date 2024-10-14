@@ -1,0 +1,33 @@
+{
+  "BeforeCallCommon": null,
+  "AfterCallCommon": null,
+  "RecordHeaders": false,
+  "RecordParameters": false,
+  "Name": "Scenario_GetDoctorById_200.rest",
+  "BaseName": "Scenario_GetDoctorById_200",
+  "Requests": [
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "GET_DoctorsById_200",
+      "Url": "http://localhost:8080/doctor/{id}",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [],
+      "Parameters": [
+        {
+          "Name": "id",
+          "TokenName": "{id}",
+          "Value": "cdcaa362-3c3e-45ca-abe0-455f749d368a"
+        }
+      ]
+    }
+  ]
+}

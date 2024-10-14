@@ -1,0 +1,47 @@
+C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js 6.0
+SeS Player Starting...
+Rapise Version:8.1.29.56
+Verbose level:1
+###Scenario_GetDoctorById_400 (-2)
+###Play RVL@Scenario_GetDoctorById_400 (1)
+Attaching to spreadsheet : true : C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_400\Main.rvl.xlsx
+Playing script: Script: C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_400\Main.rvl.xlsx:RVL, 54 source rows 0 errors
+Looking for object:Tester
+###When get doctor by id executed (-2)
+Looking for object:GetDoctorById_400_Get_DoctorById_400
+GetDoctorById_400_Get_DoctorById_400.DoExecute({}, true)
+DoExecute: Error Returned from Server '{"success":false,"errors":["Invalid UUID format"]}'
+###GetDoctorById_400_Get_DoctorById_400.DoExecute({}, true) (1)
+Action result:false
+Checking If branch at line: 20
+Checking branch condition: param1 == param2(apiResponse.StatusCode, "404")
+Condition resolved to: false
+Bypass if - neither conditions, nor else is here
+Checking If branch at line: 30
+Checking branch condition: param1 == param2(apiResponse.StatusCode, "400")
+Condition resolved to: true
+Looking for object:Tester
+###Then check for 400 error message  (1)
+Looking for object:Tester
+###When get doctor by id executed (-2)
+Looking for object:GetDoctorById_400_Get_DoctorById_400
+GetDoctorById_400_Get_DoctorById_400.DoExecute({}, true)
+DoExecute: Error Returned from Server '{"success":false,"errors":["No Doctor found with specified Id"]}'
+###GetDoctorById_400_Get_DoctorById_400.DoExecute({}, true) (1)
+Action result:false
+Checking If branch at line: 20
+Checking branch condition: param1 == param2(apiResponse.StatusCode, "404")
+Condition resolved to: true
+Looking for object:Tester
+###Then check for 404 error message  (1)
+Checking If branch at line: 30
+Checking branch condition: param1 == param2(apiResponse.StatusCode, "400")
+Condition resolved to: false
+Bypass if - neither conditions, nor else is here
+Execution is over, bailing out.
+###Scenario_GetDoctorById_400 (1)
+Test execution done
+##############################################################
+Test Pass: Scenario_GetDoctorById_400,  (Passed:5 Failed:0 Time:0.889s)
+Test Session Status: Pass Time: 1.852s
+##############################################################

@@ -1,0 +1,61 @@
+<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-10-14 14:55:41.174"/>
+<log type="Test" name="Scenario_CreateDoctor200" status="Info" _testPath="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Test.sstest"  at="2024-10-14 14:55:41.506"><data type="text">Executing Script: C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Test.sstest</data>
+<data type="text">Entry Point: RVLSpecialEntryPoint</data>
+</log>
+<log type="Assert" name="Play RVL@Scenario_CreateDoctor200" status="Pass" comment=""  at="2024-10-14 14:55:41.510"><data type="link" url="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Main.rvl.xlsx(RVL,2,1)" text="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Main.rvl.xlsx(RVL,2,1)"/>
+</log>
+<log type="Message" name="When Doctor is created" status="Info"  at="2024-10-14 14:55:41.591"/>
+<log type="Assert" name="Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()" status="Pass"  at="2024-10-14 14:55:41.944"><data type="text">Status Code: 200 
+Response: {&quot;success&quot;:true,&quot;responseData&quot;:{&quot;id&quot;:&quot;0511f8ee-fdaf-4c75-a4ec-c48351764b3a&quot;,&quot;firstName&quot;:&quot;Shahana&quot;,&quot;lastName&quot;:&quot;S&quot;,&quot;department&quot;:&quot;Cardiology&quot;,&quot;aadhaarNumber&quot;:&quot;590836950348&quot;}}</data>
+</log>
+<log type="Assert" name="Then assert status code " status="Pass" comment="200==200"  at="2024-10-14 14:55:41.956"><data type="text">AssertEqual</data>
+<data type="text">200</data>
+<data type="text">200</data>
+</log>
+<log type="Assert" name="And check for first name" status="Pass" comment="Shahana==Shahana"  at="2024-10-14 14:55:41.966"><data type="text">AssertEqual</data>
+<data type="text">Shahana</data>
+<data type="text">Shahana</data>
+</log>
+<log type="Assert" name="And check for id" status="Pass" comment="0511f8ee-fdaf-4c75-a4ec-c48351764b3a!=null"  at="2024-10-14 14:55:41.968"><data type="text">AssertNotNull</data>
+<data type="text">0511f8ee-fdaf-4c75-a4ec-c48351764b3a</data>
+</log>
+<log type="Message" name="When Doctor is created" status="Info"  at="2024-10-14 14:55:41.971"/>
+<log type="Assert" name="Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()" status="Pass"  at="2024-10-14 14:55:42.095"><data type="text">Status Code: 200 
+Response: {&quot;success&quot;:true,&quot;responseData&quot;:{&quot;id&quot;:&quot;5ff8f549-b31f-4b8c-a50d-1598aefd2951&quot;,&quot;firstName&quot;:&quot;Sambit&quot;,&quot;lastName&quot;:&quot;Sahu&quot;,&quot;department&quot;:&quot;Nephrology&quot;,&quot;aadhaarNumber&quot;:&quot;675045336809&quot;}}</data>
+</log>
+<log type="Assert" name="Then assert status code " status="Pass" comment="200==200"  at="2024-10-14 14:55:42.098"><data type="text">AssertEqual</data>
+<data type="text">200</data>
+<data type="text">200</data>
+</log>
+<log type="Assert" name="And check for first name" status="Pass" comment="Sambit==Sambit"  at="2024-10-14 14:55:42.101"><data type="text">AssertEqual</data>
+<data type="text">Sambit</data>
+<data type="text">Sambit</data>
+</log>
+<log type="Assert" name="And check for id" status="Pass" comment="5ff8f549-b31f-4b8c-a50d-1598aefd2951!=null"  at="2024-10-14 14:55:42.105"><data type="text">AssertNotNull</data>
+<data type="text">5ff8f549-b31f-4b8c-a50d-1598aefd2951</data>
+</log>
+<log type="Assert" name="Play GetDoctorById@Scenario_CreateDoctor200" status="Pass" comment=""  at="2024-10-14 14:55:42.108"><data type="link" url="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Main.rvl.xlsx(GetDoctorById,2,1)" text="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Main.rvl.xlsx(GetDoctorById,2,1)"/>
+</log>
+<log type="Message" name="When get doctor by id executed" status="Info"  at="2024-10-14 14:55:42.157"/>
+<log type="Assert" name="Scenario_GetDoctorById_200_GET_DoctorsById_200.DoExecute()" status="Pass"  at="2024-10-14 14:55:42.292"><data type="text">Status Code: 200 
+Response: {&quot;success&quot;:true,&quot;responseData&quot;:{&quot;id&quot;:&quot;5ff8f549-b31f-4b8c-a50d-1598aefd2951&quot;,&quot;firstName&quot;:&quot;Sambit&quot;,&quot;lastName&quot;:&quot;Sahu&quot;,&quot;department&quot;:&quot;Nephrology&quot;,&quot;aadhaarNumber&quot;:&quot;675045336809&quot;}}</data>
+</log>
+<log type="Assert" name="Then check for id" status="Pass" comment="5ff8f549-b31f-4b8c-a50d-1598aefd2951!=null"  at="2024-10-14 14:55:42.296"><data type="text">AssertNotNull</data>
+<data type="text">5ff8f549-b31f-4b8c-a50d-1598aefd2951</data>
+</log>
+<log type="Assert" name="Then assert status code " status="Pass" comment="200==200"  at="2024-10-14 14:55:42.298"><data type="text">AssertEqual</data>
+<data type="text">200</data>
+<data type="text">200</data>
+</log>
+<log type="Message" name="When get doctor by id executed" status="Info"  at="2024-10-14 14:55:42.301"/>
+<log type="Assert" name="Scenario_GetDoctorById_200_GET_DoctorsById_200.DoExecute()" status="Pass"  at="2024-10-14 14:55:42.421"><data type="text">Status Code: 200 
+Response: {&quot;success&quot;:true,&quot;responseData&quot;:{&quot;id&quot;:&quot;5ff8f549-b31f-4b8c-a50d-1598aefd2951&quot;,&quot;firstName&quot;:&quot;Sambit&quot;,&quot;lastName&quot;:&quot;Sahu&quot;,&quot;department&quot;:&quot;Nephrology&quot;,&quot;aadhaarNumber&quot;:&quot;675045336809&quot;}}</data>
+</log>
+<log type="Assert" name="Then check for id" status="Pass" comment="5ff8f549-b31f-4b8c-a50d-1598aefd2951!=null"  at="2024-10-14 14:55:42.430"><data type="text">AssertNotNull</data>
+<data type="text">5ff8f549-b31f-4b8c-a50d-1598aefd2951</data>
+</log>
+<log type="Assert" name="Then assert status code " status="Pass" comment="200==200"  at="2024-10-14 14:55:42.436"><data type="text">AssertEqual</data>
+<data type="text">200</data>
+<data type="text">200</data>
+</log>
+<log type="Test" name="Scenario_CreateDoctor200" status="Pass" closed="Scenario_CreateDoctor200" _guid="undefined"  at="2024-10-14 14:55:42.443" comment="Passed:16 Failed:0 Time:1.217s" />

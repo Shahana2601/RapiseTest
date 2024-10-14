@@ -1,0 +1,15 @@
+<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-10-09 16:53:45.109"/>
+<log type="Test" name="Scenario_GetDoctorById_400" status="Info" _testPath="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_400\Test.sstest"  at="2024-10-09 16:53:45.754"><data type="text">Executing Script: C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_400\Test.sstest</data>
+<data type="text">Entry Point: RVLSpecialEntryPoint</data>
+</log>
+<log type="Assert" name="Play RVL@Scenario_GetDoctorById_400" status="Pass" comment=""  at="2024-10-09 16:53:45.757"><data type="link" url="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_400\Main.rvl.xlsx(RVL,2,1)" text="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_400\Main.rvl.xlsx(RVL,2,1)"/>
+</log>
+<log type="Message" name="When get doctor by id executed" status="Info"  at="2024-10-09 16:53:45.821"/>
+<log type="Assert" name="GetDoctorById_400_Get_DoctorById_400.DoExecute({}, true)" status="Pass"  at="2024-10-09 16:53:46.099"><data type="text">Status Code: 404 
+Response: {&quot;success&quot;:false,&quot;errors&quot;:[&quot;No Doctor found with specified Id&quot;]}</data>
+</log>
+<log type="Assert" name="Then check for 404 error message " status="Pass" comment="No Doctor found with specified Id==No Doctor found with specified Id"  at="2024-10-09 16:53:46.117"><data type="text">AssertEqual</data>
+<data type="text">No Doctor found with specified Id</data>
+<data type="text">No Doctor found with specified Id</data>
+</log>
+<log type="Test" name="Scenario_GetDoctorById_400" status="Pass" closed="Scenario_GetDoctorById_400" _guid="undefined"  at="2024-10-09 16:53:46.122" comment="Passed:3 Failed:0 Time:0.632s" />

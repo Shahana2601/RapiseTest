@@ -1,0 +1,57 @@
+<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-10-14 14:54:29.343"/>
+<log type="Test" name="Scenario_CreateDoctor200" status="Info" _testPath="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Test.sstest"  at="2024-10-14 14:54:29.676"><data type="text">Executing Script: C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Test.sstest</data>
+<data type="text">Entry Point: RVLSpecialEntryPoint</data>
+</log>
+<log type="Assert" name="Play RVL@Scenario_CreateDoctor200" status="Pass" comment=""  at="2024-10-14 14:54:29.680"><data type="link" url="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Main.rvl.xlsx(RVL,2,1)" text="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Main.rvl.xlsx(RVL,2,1)"/>
+</log>
+<log type="Message" name="When Doctor is created" status="Info"  at="2024-10-14 14:54:29.766"/>
+<log type="Assert" name="Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()" status="Pass"  at="2024-10-14 14:54:30.120"><data type="text">Status Code: 200 
+Response: {&quot;success&quot;:true,&quot;responseData&quot;:{&quot;id&quot;:&quot;decfc70a-26f4-4893-92f7-9e3f1043f6b5&quot;,&quot;firstName&quot;:&quot;Shahana&quot;,&quot;lastName&quot;:&quot;S&quot;,&quot;department&quot;:&quot;Cardiology&quot;,&quot;aadhaarNumber&quot;:&quot;590836950348&quot;}}</data>
+</log>
+<log type="Assert" name="Then assert status code " status="Pass" comment="200==200"  at="2024-10-14 14:54:30.133"><data type="text">AssertEqual</data>
+<data type="text">200</data>
+<data type="text">200</data>
+</log>
+<log type="Assert" name="Then check for first name" status="Pass" comment="Shahana==Shahana"  at="2024-10-14 14:54:30.137"><data type="text">AssertEqual</data>
+<data type="text">Shahana</data>
+<data type="text">Shahana</data>
+</log>
+<log type="Assert" name="Then check for id" status="Pass" comment="decfc70a-26f4-4893-92f7-9e3f1043f6b5!=null"  at="2024-10-14 14:54:30.140"><data type="text">AssertNotNull</data>
+<data type="text">decfc70a-26f4-4893-92f7-9e3f1043f6b5</data>
+</log>
+<log type="Message" name="When Doctor is created" status="Info"  at="2024-10-14 14:54:30.142"/>
+<log type="Assert" name="Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()" status="Pass"  at="2024-10-14 14:54:30.272"><data type="text">Status Code: 200 
+Response: {&quot;success&quot;:true,&quot;responseData&quot;:{&quot;id&quot;:&quot;24f90ee2-30b9-4a4b-9bac-671da7ce99cb&quot;,&quot;firstName&quot;:&quot;Sambit&quot;,&quot;lastName&quot;:&quot;Sahu&quot;,&quot;department&quot;:&quot;Nephrology&quot;,&quot;aadhaarNumber&quot;:&quot;675045336809&quot;}}</data>
+</log>
+<log type="Assert" name="Then check for first name" status="Pass" comment="Sambit==Sambit"  at="2024-10-14 14:54:30.285"><data type="text">AssertEqual</data>
+<data type="text">Sambit</data>
+<data type="text">Sambit</data>
+</log>
+<log type="Assert" name="Then check for id" status="Pass" comment="24f90ee2-30b9-4a4b-9bac-671da7ce99cb!=null"  at="2024-10-14 14:54:30.291"><data type="text">AssertNotNull</data>
+<data type="text">24f90ee2-30b9-4a4b-9bac-671da7ce99cb</data>
+</log>
+<log type="Assert" name="Play GetDoctorById@Scenario_CreateDoctor200" status="Pass" comment=""  at="2024-10-14 14:54:30.298"><data type="link" url="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Main.rvl.xlsx(GetDoctorById,2,1)" text="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Main.rvl.xlsx(GetDoctorById,2,1)"/>
+</log>
+<log type="Message" name="When get doctor by id executed" status="Info"  at="2024-10-14 14:54:30.350"/>
+<log type="Assert" name="Scenario_GetDoctorById_200_GET_DoctorsById_200.DoExecute()" status="Pass"  at="2024-10-14 14:54:30.491"><data type="text">Status Code: 200 
+Response: {&quot;success&quot;:true,&quot;responseData&quot;:{&quot;id&quot;:&quot;24f90ee2-30b9-4a4b-9bac-671da7ce99cb&quot;,&quot;firstName&quot;:&quot;Sambit&quot;,&quot;lastName&quot;:&quot;Sahu&quot;,&quot;department&quot;:&quot;Nephrology&quot;,&quot;aadhaarNumber&quot;:&quot;675045336809&quot;}}</data>
+</log>
+<log type="Assert" name="Then check for id" status="Pass" comment="24f90ee2-30b9-4a4b-9bac-671da7ce99cb!=null"  at="2024-10-14 14:54:30.503"><data type="text">AssertNotNull</data>
+<data type="text">24f90ee2-30b9-4a4b-9bac-671da7ce99cb</data>
+</log>
+<log type="Assert" name="Then assert status code " status="Pass" comment="200==200"  at="2024-10-14 14:54:30.509"><data type="text">AssertEqual</data>
+<data type="text">200</data>
+<data type="text">200</data>
+</log>
+<log type="Message" name="When get doctor by id executed" status="Info"  at="2024-10-14 14:54:30.512"/>
+<log type="Assert" name="Scenario_GetDoctorById_200_GET_DoctorsById_200.DoExecute()" status="Pass"  at="2024-10-14 14:54:30.643"><data type="text">Status Code: 200 
+Response: {&quot;success&quot;:true,&quot;responseData&quot;:{&quot;id&quot;:&quot;24f90ee2-30b9-4a4b-9bac-671da7ce99cb&quot;,&quot;firstName&quot;:&quot;Sambit&quot;,&quot;lastName&quot;:&quot;Sahu&quot;,&quot;department&quot;:&quot;Nephrology&quot;,&quot;aadhaarNumber&quot;:&quot;675045336809&quot;}}</data>
+</log>
+<log type="Assert" name="Then check for id" status="Pass" comment="24f90ee2-30b9-4a4b-9bac-671da7ce99cb!=null"  at="2024-10-14 14:54:30.652"><data type="text">AssertNotNull</data>
+<data type="text">24f90ee2-30b9-4a4b-9bac-671da7ce99cb</data>
+</log>
+<log type="Assert" name="Then assert status code " status="Pass" comment="200==200"  at="2024-10-14 14:54:30.661"><data type="text">AssertEqual</data>
+<data type="text">200</data>
+<data type="text">200</data>
+</log>
+<log type="Test" name="Scenario_CreateDoctor200" status="Pass" closed="Scenario_CreateDoctor200" _guid="undefined"  at="2024-10-14 14:54:30.668" comment="Passed:15 Failed:0 Time:1.273s" />

@@ -1,0 +1,78 @@
+C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js 6.0
+SeS Player Starting...
+Rapise Version:8.1.29.56
+Verbose level:1
+###Scenario_CreateDoctor200 (-2)
+###Play RVL@Scenario_CreateDoctor200 (1)
+Attaching to spreadsheet : true : C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Main.rvl.xlsx
+Playing script: Script: C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Main.rvl.xlsx:RVL, 92 source rows 0 errors
+Looking for object:Tester
+###When Doctor is created (-2)
+Looking for object:Scenario_CreateDoctor200_POST_CreateDoctor_200
+Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()
+###Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute() (1)
+Action result:true
+Checking If branch at line: 29
+Checking branch condition: param1 == param2("590836950348", resp["responseData"]["aadhaarNumber"])
+Condition resolved to: true
+Looking for object:Tester
+###Then assert status code  (1)
+Looking for object:Tester
+###And check for first name (1)
+Looking for object:Tester
+###And check for id (1)
+Checking If branch at line: 50
+Checking branch condition: param1 == param2("675045336809", resp["responseData"]["aadhaarNumber"])
+Condition resolved to: false
+Bypass if - neither conditions, nor else is here
+Looking for object:Tester
+###When Doctor is created (-2)
+Looking for object:Scenario_CreateDoctor200_POST_CreateDoctor_200
+Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()
+###Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute() (1)
+Action result:true
+Checking If branch at line: 29
+Checking branch condition: param1 == param2("590836950348", resp["responseData"]["aadhaarNumber"])
+Condition resolved to: false
+Bypass if - neither conditions, nor else is here
+Checking If branch at line: 50
+Checking branch condition: param1 == param2("675045336809", resp["responseData"]["aadhaarNumber"])
+Condition resolved to: true
+Looking for object:Tester
+###Then assert status code  (1)
+Looking for object:Tester
+###And check for first name (1)
+Looking for object:Tester
+###And check for id (1)
+Looking for object:RVL
+###Play GetDoctorById@Scenario_CreateDoctor200 (1)
+Attaching to spreadsheet : true : C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Main.rvl.xlsx
+Playing script: Script: C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Main.rvl.xlsx:GetDoctorById, 65 source rows 0 errors
+Looking for object:Tester
+###When get doctor by id executed (-2)
+Looking for object:Scenario_GetDoctorById_200_GET_DoctorsById_200
+Scenario_GetDoctorById_200_GET_DoctorsById_200.DoExecute()
+###Scenario_GetDoctorById_200_GET_DoctorsById_200.DoExecute() (1)
+Action result:true
+Looking for object:Tester
+###Then check for id (1)
+Looking for object:Tester
+###Then assert status code  (1)
+Looking for object:Tester
+###When get doctor by id executed (-2)
+Looking for object:Scenario_GetDoctorById_200_GET_DoctorsById_200
+Scenario_GetDoctorById_200_GET_DoctorsById_200.DoExecute()
+###Scenario_GetDoctorById_200_GET_DoctorsById_200.DoExecute() (1)
+Action result:true
+Looking for object:Tester
+###Then check for id (1)
+Looking for object:Tester
+###Then assert status code  (1)
+Execution is over, bailing out.
+Execution is over, bailing out.
+###Scenario_CreateDoctor200 (1)
+Test execution done
+##############################################################
+Test Pass: Scenario_CreateDoctor200,  (Passed:16 Failed:0 Time:1.217s)
+Test Session Status: Pass Time: 2.14s
+##############################################################

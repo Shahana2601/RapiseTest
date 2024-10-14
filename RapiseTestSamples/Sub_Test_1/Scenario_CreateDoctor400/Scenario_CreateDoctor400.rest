@@ -1,0 +1,32 @@
+{
+  "BeforeCallCommon": null,
+  "AfterCallCommon": null,
+  "RecordHeaders": false,
+  "RecordParameters": false,
+  "Name": "Scenario_CreateDoctor400.rest",
+  "BaseName": "Scenario_CreateDoctor400",
+  "Requests": [
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "POST_CreateDoctor_400",
+      "Url": "http://localhost:8080/addDoctor",
+      "Method": "POST",
+      "Body": "{\r\n  \"firstName\": \"Shahana\",\r\n  \"lastName\": \"S\",\r\n  \"department\": \"Psycology\",\r\n  \"aadhaarNumber\": \"63859274658\"\r\n}",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js 6.0
+SeS Player Starting...
+Rapise Version:8.1.29.56
+Verbose level:1
+###Scenario_CreateDoctor400 (-2)
+###Play RVL@Scenario_CreateDoctor400 (1)
+Attaching to spreadsheet : true : C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor400\Main.rvl.xlsx
+Playing script: Script: C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor400\Main.rvl.xlsx:RVL, 33 source rows 0 errors
+Looking for object:Tester
+###When createDoctor executed (-2)
+Looking for object:Scenario_CreateDoctor200_POST_CreateDoctor_200
+Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()
+DoExecute: Error Returned from Server '{"success":false,"errors":["Aadhaar already present in database"]}'
+###Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute() (0)
+Test stopped on error: Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()
+FAILURE IN SCRIPT: Error calling function createDoctor: 500
+###Error calling function createDoctor: 500 (0)
+Test stopped on error: Error calling function createDoctor: 500
+###Screen flow (-2)
+###Test Failed: 0 (-2)
+###Scenario_CreateDoctor400 (0)
+Test execution done
+##############################################################
+Test Fail: Scenario_CreateDoctor400,  (Passed:1 Failed:2 Time:0.685s)
+Test Session Status: Fail Time: 2.031s
+##############################################################

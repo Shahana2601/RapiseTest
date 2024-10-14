@@ -1,0 +1,15 @@
+<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-10-10 16:00:34.598"/>
+<log type="Test" name="Scenario_CreateDoctor200" status="Info" _testPath="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Test.sstest"  at="2024-10-10 16:00:34.925"><data type="text">Executing Script: C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Test.sstest</data>
+<data type="text">Entry Point: RVLSpecialEntryPoint</data>
+</log>
+<log type="Assert" name="Play RVL@Scenario_CreateDoctor200" status="Pass" comment=""  at="2024-10-10 16:00:34.928"><data type="link" url="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Main.rvl.xlsx(RVL,2,1)" text="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Main.rvl.xlsx(RVL,2,1)"/>
+</log>
+<log type="Message" name="When Doctor is created" status="Info"  at="2024-10-10 16:00:34.981"/>
+<log type="Assert" name="Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()" status="Pass"  at="2024-10-10 16:00:35.323"><data type="text">Status Code: 200 
+Response: {&quot;success&quot;:true,&quot;responseData&quot;:{&quot;id&quot;:&quot;834394fd-51db-4d73-bd15-086dd6c986d2&quot;,&quot;firstName&quot;:&quot;Chandrakanth&quot;,&quot;lastName&quot;:&quot;S&quot;,&quot;department&quot;:&quot;Pediatric&quot;,&quot;aadhaarNumber&quot;:&quot;560546567898&quot;}}</data>
+</log>
+<log type="Assert" name="Then assert status code " status="Pass" comment="200==200"  at="2024-10-10 16:00:35.327"><data type="text">AssertEqual</data>
+<data type="text">200</data>
+<data type="text">200</data>
+</log>
+<log type="Test" name="Scenario_CreateDoctor200" status="Pass" closed="Scenario_CreateDoctor200" _guid="undefined"  at="2024-10-10 16:00:35.331" comment="Passed:3 Failed:0 Time:0.68s" />

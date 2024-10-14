@@ -1,0 +1,23 @@
+<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-10-10 14:52:02.448"/>
+<log type="Test" name="Scenario_GetDoctorById_200" status="Info" _testPath="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Test.sstest"  at="2024-10-10 14:52:02.757"><data type="text">Executing Script: C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Test.sstest</data>
+<data type="text">Entry Point: RVLSpecialEntryPoint</data>
+</log>
+<log type="Assert" name="Play createDoctor_200@Scenario_GetDoctorById_200" status="Pass" comment=""  at="2024-10-10 14:52:02.762"><data type="link" url="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(createDoctor_200,2,1)" text="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(createDoctor_200,2,1)"/>
+</log>
+<log type="Message" name="When Doctor is created" status="Info"  at="2024-10-10 14:52:02.843"/>
+<log type="Assert" name="Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()" status="Pass"  at="2024-10-10 14:52:03.195"><data type="text">Status Code: 200 
+Response: {&quot;success&quot;:true,&quot;responseData&quot;:{&quot;id&quot;:&quot;184638a6-a90a-4fef-b17c-9e0bb748da02&quot;,&quot;firstName&quot;:&quot;Shahana&quot;,&quot;lastName&quot;:&quot;S&quot;,&quot;department&quot;:&quot;Cardiology&quot;,&quot;aadhaarNumber&quot;:&quot;8978 5645 2345&quot;}}</data>
+</log>
+<log type="Assert" name="Then assert status code " status="Pass" comment="200==200"  at="2024-10-10 14:52:03.200"><data type="text">AssertEqual</data>
+<data type="text">200</data>
+<data type="text">200</data>
+</log>
+<log type="Message" name="When Doctor is created" status="Info"  at="2024-10-10 14:52:03.203"/>
+<log type="Assert" name="Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()" status="Pass"  at="2024-10-10 14:52:03.329"><data type="text">Status Code: 200 
+Response: {&quot;success&quot;:true,&quot;responseData&quot;:{&quot;id&quot;:&quot;9b339ce2-a284-464c-9797-37568644a6f9&quot;,&quot;firstName&quot;:&quot;Sambit&quot;,&quot;lastName&quot;:&quot;Sahu&quot;,&quot;department&quot;:&quot;Nephrology&quot;,&quot;aadhaarNumber&quot;:&quot;6756 4567 9887&quot;}}</data>
+</log>
+<log type="Assert" name="Then assert status code " status="Pass" comment="200==200"  at="2024-10-10 14:52:03.332"><data type="text">AssertEqual</data>
+<data type="text">200</data>
+<data type="text">200</data>
+</log>
+<log type="Test" name="Scenario_GetDoctorById_200" status="Pass" closed="Scenario_GetDoctorById_200" _guid="undefined"  at="2024-10-10 14:52:03.337" comment="Passed:5 Failed:0 Time:0.836s" />

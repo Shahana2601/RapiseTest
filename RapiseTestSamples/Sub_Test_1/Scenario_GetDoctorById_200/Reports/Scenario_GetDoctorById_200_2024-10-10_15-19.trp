@@ -1,0 +1,45 @@
+<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-10-10 15:19:27.128"/>
+<log type="Test" name="Scenario_GetDoctorById_200" status="Info" _testPath="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Test.sstest"  at="2024-10-10 15:19:27.433"><data type="text">Executing Script: C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Test.sstest</data>
+<data type="text">Entry Point: RVLSpecialEntryPoint</data>
+</log>
+<log type="Assert" name="Play createDoctor_200@Scenario_GetDoctorById_200" status="Pass" comment=""  at="2024-10-10 15:19:27.436"><data type="link" url="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(createDoctor_200,2,1)" text="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(createDoctor_200,2,1)"/>
+</log>
+<log type="Message" name="When Doctor is created" status="Info"  at="2024-10-10 15:19:27.518"/>
+<log type="Assert" name="Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()" status="Pass"  at="2024-10-10 15:19:27.846"><data type="text">Status Code: 200 
+Response: {&quot;success&quot;:true,&quot;responseData&quot;:{&quot;id&quot;:&quot;327fbe17-6941-4ec2-8b69-5730de4971a5&quot;,&quot;firstName&quot;:&quot;Shahana&quot;,&quot;lastName&quot;:&quot;S&quot;,&quot;department&quot;:&quot;Cardiology&quot;,&quot;aadhaarNumber&quot;:&quot;890896950349&quot;}}</data>
+</log>
+<log type="Assert" name="Then check for first name" status="Pass" comment="Shahana==Shahana"  at="2024-10-10 15:19:27.850"><data type="text">AssertEqual</data>
+<data type="text">Shahana</data>
+<data type="text">Shahana</data>
+</log>
+<log type="Assert" name="Then check for id" status="Pass" comment="327fbe17-6941-4ec2-8b69-5730de4971a5!=null"  at="2024-10-10 15:19:27.854"><data type="text">AssertNotNull</data>
+<data type="text">327fbe17-6941-4ec2-8b69-5730de4971a5</data>
+</log>
+<log type="Assert" name="Then assert status code " status="Pass" comment="200==200"  at="2024-10-10 15:19:27.856"><data type="text">AssertEqual</data>
+<data type="text">200</data>
+<data type="text">200</data>
+</log>
+<log type="Assert" name="Then check for aadhaarnumber" status="Pass" comment="890896950349==890896950349"  at="2024-10-10 15:19:27.858"><data type="text">AssertEqual</data>
+<data type="text">890896950349</data>
+<data type="text">890896950349</data>
+</log>
+<log type="Message" name="When Doctor is created" status="Info"  at="2024-10-10 15:19:27.861"/>
+<log type="Assert" name="Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()" status="Pass"  at="2024-10-10 15:19:27.980"><data type="text">Status Code: 200 
+Response: {&quot;success&quot;:true,&quot;responseData&quot;:{&quot;id&quot;:&quot;93ce6dcd-bed3-4d7e-a19a-d4faf0cca655&quot;,&quot;firstName&quot;:&quot;Sambit&quot;,&quot;lastName&quot;:&quot;Sahu&quot;,&quot;department&quot;:&quot;Nephrology&quot;,&quot;aadhaarNumber&quot;:&quot;975045396807&quot;}}</data>
+</log>
+<log type="Assert" name="Then check for first name" status="Pass" comment="Sambit==Sambit"  at="2024-10-10 15:19:27.983"><data type="text">AssertEqual</data>
+<data type="text">Sambit</data>
+<data type="text">Sambit</data>
+</log>
+<log type="Assert" name="Then check for id" status="Pass" comment="93ce6dcd-bed3-4d7e-a19a-d4faf0cca655!=null"  at="2024-10-10 15:19:27.986"><data type="text">AssertNotNull</data>
+<data type="text">93ce6dcd-bed3-4d7e-a19a-d4faf0cca655</data>
+</log>
+<log type="Assert" name="Then assert status code " status="Pass" comment="200==200"  at="2024-10-10 15:19:27.989"><data type="text">AssertEqual</data>
+<data type="text">200</data>
+<data type="text">200</data>
+</log>
+<log type="Assert" name="Then check for aadhaarnumber" status="Pass" comment="975045396807==975045396807"  at="2024-10-10 15:19:27.992"><data type="text">AssertEqual</data>
+<data type="text">975045396807</data>
+<data type="text">975045396807</data>
+</log>
+<log type="Test" name="Scenario_GetDoctorById_200" status="Pass" closed="Scenario_GetDoctorById_200" _guid="undefined"  at="2024-10-10 15:19:28.001" comment="Passed:11 Failed:0 Time:0.822s" />

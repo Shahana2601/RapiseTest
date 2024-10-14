@@ -1,0 +1,57 @@
+{
+  "BeforeCallCommon": null,
+  "AfterCallCommon": null,
+  "RecordHeaders": false,
+  "RecordParameters": false,
+  "Name": "Scenario_CreateDoctor200.rest",
+  "BaseName": "Scenario_CreateDoctor200",
+  "Requests": [
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "POST_CreateDoctor_200",
+      "Url": "http://localhost:8080/addDoctor",
+      "Method": "POST",
+      "Body": "{\r\n  \"firstName\": \"{firstName}\",\r\n  \"lastName\": \"{lastName}\",\r\n  \"department\": \"{department}\",\r\n  \"aadhaarNumber\": \"{aadhaarNumber}\"\r\n}",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "firstName",
+          "TokenName": "{firstName}",
+          "Value": "Manjima"
+        },
+        {
+          "Name": "lastName",
+          "TokenName": "{lastName}",
+          "Value": "A"
+        },
+        {
+          "Name": "department",
+          "TokenName": "{department}",
+          "Value": "Neurology"
+        },
+        {
+          "Name": "aadhaarNumber",
+          "TokenName": "{aadhaarNumber}",
+          "Value": "767654563478"
+        }
+      ]
+    }
+  ]
+}

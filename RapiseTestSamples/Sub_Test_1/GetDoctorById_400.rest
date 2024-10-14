@@ -1,0 +1,33 @@
+{
+  "BeforeCallCommon": null,
+  "AfterCallCommon": null,
+  "RecordHeaders": false,
+  "RecordParameters": false,
+  "Name": "GetDoctorById_400.rest",
+  "BaseName": "GetDoctorById_400",
+  "Requests": [
+    {
+      "ProxyHost": null,
+      "ProxyPort": null,
+      "ProxyUser": null,
+      "ProxyPwd": null,
+      "Name": "Get_DoctorById_400",
+      "Url": "http://localhost:8080/doctor/{id}",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "BeforeCallCommon": null,
+      "AfterCallCommon": null,
+      "BeforeCall": null,
+      "AfterCall": null,
+      "Headers": [],
+      "Parameters": [
+        {
+          "Name": "id",
+          "TokenName": "{id}",
+          "Value": "cdcaa362-3c3e-"
+        }
+      ]
+    }
+  ]
+}

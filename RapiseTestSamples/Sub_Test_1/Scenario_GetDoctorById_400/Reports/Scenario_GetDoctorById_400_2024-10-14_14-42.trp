@@ -1,0 +1,23 @@
+<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-10-14 14:42:53.675"/>
+<log type="Test" name="Scenario_GetDoctorById_400" status="Info" _testPath="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_400\Test.sstest"  at="2024-10-14 14:42:54.008"><data type="text">Executing Script: C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_400\Test.sstest</data>
+<data type="text">Entry Point: RVLSpecialEntryPoint</data>
+</log>
+<log type="Assert" name="Play RVL@Scenario_GetDoctorById_400" status="Pass" comment=""  at="2024-10-14 14:42:54.012"><data type="link" url="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_400\Main.rvl.xlsx(RVL,2,1)" text="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_400\Main.rvl.xlsx(RVL,2,1)"/>
+</log>
+<log type="Message" name="When get doctor by id executed" status="Info"  at="2024-10-14 14:42:54.088"/>
+<log type="Assert" name="GetDoctorById_400_Get_DoctorById_400.DoExecute({}, true)" status="Pass"  at="2024-10-14 14:42:54.944"><data type="text">Status Code: 400 
+Response: {&quot;success&quot;:false,&quot;errors&quot;:[&quot;Invalid UUID format&quot;]}</data>
+</log>
+<log type="Assert" name="Then check for 400 error message " status="Pass" comment="Invalid UUID format==Invalid UUID format"  at="2024-10-14 14:42:54.949"><data type="text">AssertEqual</data>
+<data type="text">Invalid UUID format</data>
+<data type="text">Invalid UUID format</data>
+</log>
+<log type="Message" name="When get doctor by id executed" status="Info"  at="2024-10-14 14:42:54.952"/>
+<log type="Assert" name="GetDoctorById_400_Get_DoctorById_400.DoExecute({}, true)" status="Pass"  at="2024-10-14 14:42:55.319"><data type="text">Status Code: 404 
+Response: {&quot;success&quot;:false,&quot;errors&quot;:[&quot;No Doctor found with specified Id&quot;]}</data>
+</log>
+<log type="Assert" name="Then check for 404 error message " status="Pass" comment="No Doctor found with specified Id==No Doctor found with specified Id"  at="2024-10-14 14:42:55.323"><data type="text">AssertEqual</data>
+<data type="text">No Doctor found with specified Id</data>
+<data type="text">No Doctor found with specified Id</data>
+</log>
+<log type="Test" name="Scenario_GetDoctorById_400" status="Pass" closed="Scenario_GetDoctorById_400" _guid="undefined"  at="2024-10-14 14:42:55.328" comment="Passed:5 Failed:0 Time:1.6s" />
