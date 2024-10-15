@@ -60,6 +60,18 @@
     <TestParam name="RVL Script" variable="g_rvlScriptPath" defaultValue="Main.rvl.xlsx" description="Main RVL Script to execute" output="false" ask="false">
       <PossibleValues />
     </TestParam>
+    <TestParam name="ServerProjectId" variable="g_serverProjectId" defaultValue="3" output="false" ask="false">
+      <PossibleValues />
+    </TestParam>
+    <TestParam name="ServerTestCaseFolderId" variable="g_serverTestCaseFolderId" defaultValue="7" output="false" ask="false">
+      <PossibleValues />
+    </TestParam>
+    <TestParam name="ServerTestCaseId" variable="g_serverTestCaseId" defaultValue="310" output="false" ask="false">
+      <PossibleValues />
+    </TestParam>
+    <TestParam name="Source Type" variable="g_serverRepositoryType" defaultValue="git" output="false" ask="false">
+      <PossibleValues />
+    </TestParam>
   </TestParams>
   <Methodology>Basic</Methodology>
 </Test>
