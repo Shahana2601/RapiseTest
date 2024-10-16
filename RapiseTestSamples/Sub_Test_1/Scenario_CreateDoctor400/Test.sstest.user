@@ -13,10 +13,10 @@
     <FlexDictionaryEntry name="TestTree" type="SmarteStudio.Test.FlexDictionary">
       <FlexDictionary>
         <ArrayOfFlexDictionaryEntry>
-          <FlexDictionaryEntry name="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor400\Test.sstest.Test" type="System.Boolean">
+          <FlexDictionaryEntry name="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor400\Test.sstest.Test" type="System.Boolean">
             <boolean>true</boolean>
           </FlexDictionaryEntry>
-          <FlexDictionaryEntry name="C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor400\Test.sstest.Test.Reports" type="System.Boolean">
+          <FlexDictionaryEntry name="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor400\Test.sstest.Test.Reports" type="System.Boolean">
             <boolean>false</boolean>
           </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
@@ -32,16 +32,16 @@
       <FlexDictionary>
         <ArrayOfFlexDictionaryEntry>
           <FlexDictionaryEntry name="Status" type="System.String">
-            <string />
+            <string>Fail</string>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Pass" type="System.Int32">
-            <int>0</int>
+            <int>1</int>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Fail" type="System.Int32">
-            <int>0</int>
+            <int>3</int>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Unresolved" type="System.Int32">
-            <int>0</int>
+            <int>3</int>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Todo" type="System.Int32">
             <int>0</int>
@@ -57,6 +57,42 @@
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Verbose" type="System.Int32">
             <int>1</int>
+          </FlexDictionaryEntry>
+        </ArrayOfFlexDictionaryEntry>
+      </FlexDictionary>
+    </FlexDictionaryEntry>
+    <FlexDictionaryEntry name="Files" type="SmarteStudio.Test.FlexDictionary">
+      <FlexDictionary>
+        <ArrayOfFlexDictionaryEntry>
+          <FlexDictionaryEntry name="c:\users\shahana.shajahan\rapisetest\rapisetestsamples\sub_test_1\scenario_createdoctor200\main.rvl.xlsx" type="SmarteStudio.Test.FlexDictionary">
+            <FlexDictionary>
+              <ArrayOfFlexDictionaryEntry>
+                <FlexDictionaryEntry name="Row" type="System.Int32">
+                  <int>1</int>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="Col" type="System.Int32">
+                  <int>1</int>
+                </FlexDictionaryEntry>
+              </ArrayOfFlexDictionaryEntry>
+            </FlexDictionary>
+          </FlexDictionaryEntry>
+        </ArrayOfFlexDictionaryEntry>
+      </FlexDictionary>
+    </FlexDictionaryEntry>
+    <FlexDictionaryEntry name="TCLastReport" type="SmarteStudio.Test.FlexDictionary">
+      <FlexDictionary>
+        <ArrayOfFlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor400\Test.sstest" type="System.String">
+            <string>C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor400\Reports\Scenario_CreateDoctor400_2024-10-15_18-03.trp</string>
+          </FlexDictionaryEntry>
+        </ArrayOfFlexDictionaryEntry>
+      </FlexDictionary>
+    </FlexDictionaryEntry>
+    <FlexDictionaryEntry name="TCStatus" type="SmarteStudio.Test.FlexDictionary">
+      <FlexDictionary>
+        <ArrayOfFlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor400\Test.sstest" type="System.String">
+            <string>Fail</string>
           </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>

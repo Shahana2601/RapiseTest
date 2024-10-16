@@ -49,7 +49,6 @@
     <FlexDictionaryEntry name="OpenDocuments" type="SmarteStudio.Test.StringList">
       <ArrayOfString>
         <string>C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx</string>
-        <string>C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Reports\Scenario_GetDoctorById_200_2024-10-15_12-31.trp</string>
       </ArrayOfString>
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="Status" type="SmarteStudio.Test.FlexDictionary">
@@ -111,6 +110,9 @@
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_400\Test.sstest" type="System.String">
             <string>Pass</string>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Test.sstest" type="System.String">
+            <string>Fail</string>
           </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>
