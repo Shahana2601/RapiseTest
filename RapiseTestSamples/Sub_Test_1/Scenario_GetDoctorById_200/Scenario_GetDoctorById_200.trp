@@ -1,17 +1,27 @@
-<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-10-15 12:31:53.230"/>
-<log type="Test" name="Scenario_GetDoctorById_200" status="Info" _testPath="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Test.sstest"  at="2024-10-15 12:31:53.741"><data type="text">Executing Script: C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Test.sstest</data>
+<log type="Session" name="EXR-IT-04:shahana.shajahan" at="2024-10-15 18:01:47.900"/>
+<log type="Test" name="Scenario_GetDoctorById_200" status="Info" _testPath="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Test.sstest"  at="2024-10-15 18:01:48.222"><data type="text">Executing Script: C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Test.sstest</data>
 <data type="text">Entry Point: RVLSpecialEntryPoint</data>
 </log>
-<log type="Assert" name="Play RVL@Scenario_GetDoctorById_200" status="Pass" comment=""  at="2024-10-15 12:31:53.745"><data type="link" url="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(RVL,2,1)" text="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(RVL,2,1)"/>
+<log type="Assert" name="Play RVL@Scenario_GetDoctorById_200" status="Pass" comment=""  at="2024-10-15 18:01:48.224"><data type="link" url="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(RVL,2,1)" text="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(RVL,2,1)"/>
 </log>
-<log type="Assert" name="Play createDoctor_200@Scenario_GetDoctorById_200" status="Pass" comment=""  at="2024-10-15 12:31:53.832"><data type="link" url="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(createDoctor_200,2,1)" text="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(createDoctor_200,2,1)"/>
+<log type="Assert" name="Play createDoctor_200@Scenario_GetDoctorById_200" status="Pass" comment=""  at="2024-10-15 18:01:48.306"><data type="link" url="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(createDoctor_200,2,1)" text="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(createDoctor_200,2,1)"/>
 </log>
-<log type="Message" name="When Doctor is created" status="Info"  at="2024-10-15 12:31:53.918"/>
-<log type="Assert" name="Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()" status="Fail"  at="2024-10-15 12:31:54.546"><data type="text">Status Code: 400 
-Response: {&quot;success&quot;:false,&quot;errors&quot;:[&quot;Aadhaar already present in database&quot;]}</data>
+<log type="Message" name="When Doctor is created" status="Info"  at="2024-10-15 18:01:48.387"/>
+<log type="Assert" name="Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()" status="Fail"  at="2024-10-15 18:01:52.684"><data type="text">Exception in Execute: Unable to connect to the remote server</data>
+<data type="text">Error: Unable to connect to the remote server
+    at Dispatch.&lt;anonymous&gt; (&lt;anonymous&gt;)
+    at RESTExecute (C:\Program Files (x86)\Inflectra\Rapise\Engine\Lib\LibWebService\LibWebServiceUtils.js:405:41)
+    at SeSObject.DoAction [as _DoExecute] (C:\Program Files (x86)\Inflectra\Rapise\Engine\Lib\LibWebService\LibWebServiceBehaviors.js:73:31)
+    at SeSObject.SeSObject_BaseAction [as BaseAction] (C:\Program Files (x86)\Inflectra\Rapise\Engine\SeSObject.js:1190:17)
+    at _DoCallAction (C:\Program Files (x86)\Inflectra\Rapise\Engine\SeSObject.js:546:28)
+    at _DoCallActionWithExceptionChecks (C:\Program Files (x86)\Inflectra\Rapise\Engine\SeSObject.js:629:17)
+    at _DoAction (C:\Program Files (x86)\Inflectra\Rapise\Engine\SeSObject.js:591:15)
+    at obj.&lt;computed&gt; [as DoExecute] (C:\Program Files (x86)\Inflectra\Rapise\Engine\SeSObject.js:489:47)
+    at RVLScriptAction.createDoctor (C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\User.js:9:49)
+    at __rvf_evalActionImpl (C:\Program Files (x86)\Inflectra\Rapise\Engine\RVL\RVLCommon.js:3411:54)</data>
 <data type="link" url="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(createDoctor_200,22,1)" text="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(createDoctor_200,22,1)"/>
 </log>
-<log type="Assert" name="Error calling function createDoctor: 500" status="Fail"  at="2024-10-15 12:31:54.559"><data type="link" url="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(createDoctor_200,22,1)" text="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(createDoctor_200,22,1)"/>
+<log type="Assert" name="Error calling function createDoctor: 500" status="Fail"  at="2024-10-15 18:01:52.688"><data type="link" url="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(createDoctor_200,22,1)" text="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(createDoctor_200,22,1)"/>
 <data type="link" url="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\User.js(9,49)" text="    at RVLScriptAction.createDoctor (C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\User.js:9:49)"/>
 <data type="text">Error: 500
     at SeSTester.FailTest (C:\Program Files (x86)\Inflectra\Rapise\Engine\SeSTester.js:2189:13)
@@ -26,4 +36,4 @@ Response: {&quot;success&quot;:false,&quot;errors&quot;:[&quot;Aadhaar already p
     at _rvf_evalAction (C:\Program Files (x86)\Inflectra\Rapise\Engine\RVL\RVLCommon.js:3432:25)</data>
 <data type="link" url="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(createDoctor_200,22,1)" text="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_200\Main.rvl.xlsx(createDoctor_200,22,1)"/>
 </log>
-<log type="Test" name="Scenario_GetDoctorById_200" status="Fail" closed="Scenario_GetDoctorById_200" _guid="undefined"  at="2024-10-15 12:31:54.573" comment="Passed:2 Failed:2 Time:1.196s" />
+<log type="Test" name="Scenario_GetDoctorById_200" status="Fail" closed="Scenario_GetDoctorById_200" _guid="undefined"  at="2024-10-15 18:01:52.696" comment="Passed:2 Failed:2 Time:4.745s" />

@@ -1,10 +1,11 @@
-# Scenario_GetDoctorById_200
-ok 1 - Play RVL@Scenario_GetDoctorById_200
-ok 2 - Play createDoctor_200@Scenario_GetDoctorById_200
+# Scenario_CreateDoctor400
+ok 1 - Play RVL@Scenario_CreateDoctor400
 # When Doctor is created
-not ok 3 - Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()
+not ok 2 - Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()
 #     Failed test
-not ok 4 - Error calling function createDoctor: 500
+not ok 3 - Error calling function createDoctor: 500
 #     Failed test
-not ok 5 - Scenario_GetDoctorById_200
+# Screen flow
+# Test Failed: 0
+not ok 4 - Scenario_CreateDoctor400
 #     Failed test

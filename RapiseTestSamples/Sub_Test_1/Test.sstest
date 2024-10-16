@@ -15,7 +15,7 @@
   <BeautifySavedObjects>true</BeautifySavedObjects>
   <SaveRecordingScreenshots>false</SaveRecordingScreenshots>
   <SavePlaybackScreenshots>false</SavePlaybackScreenshots>
-  <SavePlaybackScreenshotsInTestReport>false</SavePlaybackScreenshotsInTestReport>
+  <SavePlaybackScreenshotsInTestReport>true</SavePlaybackScreenshotsInTestReport>
   <SaveScreenshotObjectOnly>true</SaveScreenshotObjectOnly>
   <SaveScreenshotsCaptureCursor>false</SaveScreenshotsCaptureCursor>
   <SaveScreenshotOnFailure>false</SaveScreenshotOnFailure>
