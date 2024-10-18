@@ -4,8 +4,8 @@ Rapise Version:8.1.29.56
 Verbose level:1
 ###Scenario_GetDoctorById_400 (-2)
 ###Play RVL@Scenario_GetDoctorById_400 (1)
-Attaching to spreadsheet : true : C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_400\Main.rvl.xlsx
-Playing script: Script: C:\Users\shahana.shajahan\Desktop\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_400\Main.rvl.xlsx:RVL, 54 source rows 0 errors
+Attaching to spreadsheet : true : C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_400\Main.rvl.xlsx
+Playing script: Script: C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_GetDoctorById_400\Main.rvl.xlsx:RVL, 54 source rows 0 errors
 Looking for object:Tester
 ###When get doctor by id executed (-2)
 Looking for object:GetDoctorById_400_Get_DoctorById_400
@@ -42,6 +42,6 @@ Execution is over, bailing out.
 ###Scenario_GetDoctorById_400 (1)
 Test execution done
 ##############################################################
-Test Pass: Scenario_GetDoctorById_400,  (Passed:5 Failed:0 Time:0.889s)
-Test Session Status: Pass Time: 1.852s
+Test Pass: Scenario_GetDoctorById_400,  (Passed:5 Failed:0 Time:0.837s)
+Test Session Status: Pass Time: 1.735s
 ##############################################################
