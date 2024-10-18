@@ -623,11 +623,7 @@
       <ArrayOfString />
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="OpenDocuments" type="SmarteStudio.Test.StringList">
-      <ArrayOfString>
-        <string>C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Main.rvl.xlsx</string>
-        <string>C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_1\Scenario_CreateDoctor200\Scenario_CreateDoctor200.rest</string>
-        <string>C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_2\Scenario_CreateDoctor_200\Main.rvl.xlsx</string>
-      </ArrayOfString>
+      <ArrayOfString />
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="Status" type="SmarteStudio.Test.FlexDictionary">
       <FlexDictionary>
@@ -732,7 +728,7 @@
             <string>C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_2\Reports\Sub_Test_2_2024-10-18_15-04.trp</string>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_2\Scenario_CreateDoctor_200\Test.sstest" type="System.String">
-            <string>C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_2\Scenario_CreateDoctor_200\Reports\Scenario_CreateDoctor_200_2024-10-18_15-09.trp</string>
+            <string>C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_2\Scenario_CreateDoctor_200\Reports\Scenario_CreateDoctor_200_2024-10-18_15-51.trp</string>
           </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>
@@ -759,7 +755,7 @@
             <string>Fail</string>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Test.sstest" type="System.String">
-            <string>Fail</string>
+            <string>Pass</string>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="C:\Users\shahana.shajahan\RapiseTest\RapiseTestSamples\Sub_Test_2\Test.sstest" type="System.String">
             <string>Pass</string>
