@@ -42,6 +42,9 @@
         <Path>Sub_Test_1\Test.sstest</Path>
       </TestFile>
       <TestFile>
+        <Path>Sub_Test_2\Test.sstest</Path>
+      </TestFile>
+      <TestFile>
         <Path>User.js</Path>
       </TestFile>
     </TestFiles>

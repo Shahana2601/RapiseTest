@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <UserSettings>
+<<<<<<< Updated upstream
   <ArrayOfFlexDictionaryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <FlexDictionaryEntry name="TestFilesTree" type="SmarteStudio.Test.FlexDictionary">
       <FlexDictionary>
@@ -98,4 +99,7 @@
       </FlexDictionary>
     </FlexDictionaryEntry>
   </ArrayOfFlexDictionaryEntry>
+=======
+  <ArrayOfFlexDictionaryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+>>>>>>> Stashed changes
 </UserSettings>

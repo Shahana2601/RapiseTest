@@ -1,11 +1,22 @@
-# Scenario_CreateDoctor400
-ok 1 - Play RVL@Scenario_CreateDoctor400
+# Scenario_CreateDoctor_200
+ok 1 - Play RVL@Scenario_CreateDoctor_200
 # When Doctor is created
-not ok 2 - Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()
-#     Failed test
-not ok 3 - Error calling function createDoctor: 500
-#     Failed test
-# Screen flow
-# Test Failed: 0
-not ok 4 - Scenario_CreateDoctor400
-#     Failed test
+ok 2 - Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()
+ok 3 - Then assert status code 
+ok 4 - And check for first name
+ok 5 - And check for id
+# When Doctor is created
+ok 6 - Scenario_CreateDoctor200_POST_CreateDoctor_200.DoExecute()
+ok 7 - Then assert status code 
+ok 8 - And check for first name
+ok 9 - And check for id
+ok 10 - Play getDoctorById@Scenario_CreateDoctor_200
+# When get doctor by id executed
+ok 11 - Scenario_GetDoctorById_200_GET_DoctorsById_200.DoExecute()
+ok 12 - Then check for id
+ok 13 - Then assert status code 
+# When get doctor by id executed
+ok 14 - Scenario_GetDoctorById_200_GET_DoctorsById_200.DoExecute()
+ok 15 - Then check for id
+ok 16 - Then assert status code 
+ok 17 - Scenario_CreateDoctor_200
